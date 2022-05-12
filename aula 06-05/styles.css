@@ -1,0 +1,83 @@
+/* Geral */
+body {
+    /* fonte geral */
+    font-family: Helvetica;
+    /* linhamento do texto */
+    text-align: center;
+    /* cor da fonte */
+    color: white;
+    /* cor de fundo página */
+    background-color: #333;
+    /* tamanho padding e margem */
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos aplicados na seção nav */
+nav {
+    /* flaxibilidade itens container */
+    display: flex;
+    /* espaçamento entre os ítens */
+    justify-content: space-between;
+    /* distancia interna div, sendo os 4 lados iguais */
+    padding: 20px;
+    /* alinhamento do conteúdo da div */
+    align-items: center;
+    /* borda, sendo: tamanho, estilo e cor */
+    border-bottom: 1px solid #666;
+}
+
+/* menu lateral  */
+nav ul {
+    /* flaxibilidade itens container */
+    display: flex;
+    /* reset declaracão das duas propriedades */
+    list-style: none;
+    
+}
+
+/* itens menu */
+ul li {
+    /* distancia margem direita */
+    margin-right: 12px;
+}
+
+/* estilos dos textos com link nos ítens do menu */
+ul li a {
+    /* cor do texto */
+    color: #fff;
+    /* formataçao do texto */
+    text-decoration: none;
+    /* tempo transiçao ao passar mouse */
+    transition: 0.5s;
+}
+
+/* estilos dos links do menu com o mouse sobre eles */
+ul li a:hover {
+    /* cor quando passa o mouse */
+    color: rgb(15, 89, 150);
+}
+
+/* texto */ 
+h1 {
+    /* tamanho da fonte */
+    font-size: 32px;
+}
+
+/* estilos da imagem */ 
+img {
+    /* borda da imagem, sendo: tamanho, estilo e cor */
+    border: 3px solid rgb(15, 194, 218);
+    /* altura da imagem */
+    height: 300px;
+}
+
+/* estilos do rodapé */
+footer {
+    /* distanciamento das margens */
+    padding: 20px; 
+    /* borda do rodapé, sendo: tamanho, estilo e cor */
+    border-top: 1px solid #666;
+    /* tamanho da margem superior */
+    margin-top: 20px;
+}
